@@ -1,0 +1,359 @@
+<html>
+	<head>
+		<style data-emotion="mantine" data-s=""></style><style data-emotion="mantine" data-s=""></style>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Live Chat Replay</title>
+		<meta name="next-head-count" content="3">
+		<link rel="stylesheet" href="style1.css" data-n-g="">
+		<link rel="stylesheet" href="style2.css" data-n-p="">
+		<link rel="stylesheet" href="style3.css" data-n-p="">
+		<noscript data-n-css=""></noscript>
+		<style id="__jsx-2257847195">
+			:root {
+				--fontstack-figures: '__Barlow_Condensed_1ffb50', '__Barlow_Condensed_Fallback_1ffb50'
+			}
+		</style>
+		<style data-emotion="css-global" data-s="">
+			html {
+				font-family: sans-serif;
+				line-height: 1.15;
+				-webkit-text-size-adjust: 100%;
+				-moz-text-size-adjust: 100%;
+				-ms-text-size-adjust: 100%;
+				text-size-adjust: 100%;
+			}
+			body {
+				margin: 0;
+			}
+			article, aside, footer, header, nav, section, figcaption, figure, main {
+				display: block;
+			}
+			h1 {
+				font-size: 2em;
+			}
+			hr {
+				box-sizing: content-box;
+				height: 0;
+				overflow: visible;
+			}
+			pre {
+				font-family: monospace, monospace;
+				font-size: 1em;
+			}
+			a {
+				background: transparent;
+				text-decoration-skip: objects;
+			}
+			a:active, a:hover {
+				outline-width: 0;
+			}
+			abbr[title] {
+				border-bottom: none;
+				-webkit-text-decoration: underline;
+				text-decoration: underline;
+			}
+			b, strong {
+				font-weight: bolder;
+			}
+			code, kbp, samp {
+				font-family: monospace, monospace;
+				font-size: 1em;
+			}
+			dfn {
+				font-style: italic;
+			}
+			mark {
+				background-color: #ff0;
+				color: #000;
+			}
+			small {
+				font-size: 80%;
+			}
+			sub, sup {
+				font-size: 75%;
+				line-height: 0;
+				position: relative;
+				vertical-align: baseline;
+			}
+			sup {
+				top: -0.5em;
+			}
+			sub {
+				bottom: -0.25em;
+			}
+			audio, video {
+				display: inline-block;
+			}
+			audio:not([controls]) {
+				display: none;
+				height: 0;
+			}
+			img {
+				border-style: none;
+				vertical-align: middle;
+			}
+			svg:not(:root) {
+				overflow: hidden;
+			}
+			button, input, optgroup, select, textarea {
+				font-family: sans-serif;
+				font-size: 100%;
+				line-height: 1.15;
+				margin: 0;
+			}
+			button, input {
+				overflow: visible;
+			}
+			button, select {
+				text-transform: none;
+			}
+			button, [type=reset], [type=submit] {
+				-webkit-appearance: button;
+			}
+			button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+				border-style: none;
+				padding: 0;
+			}
+			button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+				outline: 0.0625 rem dotted ButtonText;
+			}
+			legend {
+				box-sizing: border-box;
+				color: inherit;
+				display: table;
+				max-width: 100%;
+				padding: 0;
+				white-space: normal;
+			}
+			progress {
+				display: inline-block;
+				vertical-align: baseline;
+			}
+			textarea {
+				overflow: auto;
+			}
+			[type=checkbox], [type=radio] {
+				box-sizing: border-box;
+				padding: 0;
+			}
+			[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+				height: auto;
+			}
+			[type=search] {
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				-ms-appearance: none;
+				appearance: none;
+			}
+			[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				-ms-appearance: none;
+				appearance: none;
+			}
+			::-webkit-file-upload-button {
+				-webkit-appearance: button;
+				-moz-appearance: button;
+				-ms-appearance: button;
+				appearance: button;
+				font: inherit;
+			}
+			details, menu {
+				display: block;
+			}
+			summary {
+				display: -webkit-box;
+				display: -webkit-list-item;
+				display: -ms-list-itembox;
+				display: list-item;
+			}
+			canvas {
+				display: inline-block;
+			}
+			template {
+				display: none;
+			}
+		</style>
+		<style type="text/css" data-styled-jsx="">
+			:root {
+				--black-h: 225;
+				--black-s: 3%;
+				--black-l: 100%;
+				--white-l: 11%;
+				--blue-l: 70%;
+				--green-l: 60%;
+				--purple-l: 67%;
+				--amber-l: 72%;
+				--orange-l: 72%;
+				--red-l: 60%;
+				--link-color-h: 165;
+				--link-color-s: 25%;
+				--link-color-l: 51%;
+				--code-color-l: 70%;
+				--demo-bg: #333;
+				--demo-bg-alt: #222;
+				--interal-text-shadow: -2px -2px #000, -2px -1px #000, -2px 0px #000, -2px 1px #000, -2px 2px #000, -1px -2px #000, -1px -1px #000, -1px 0px #000, -1px 1px #000, -1px 2px #000, 0px -2px #000, 0px -1px #000, 0px 0px #000, 0px 1px #000, 0px 2px #000, 1px -2px #000, 1px -1px #000, 1px 0px #000, 1px 1px #000, 1px 2px #000, 2px -2px #000, 2px -1px #000, 2px 0px #000, 2px 1px #000, 2px 2px #000;
+				--event-font-family: var(--fontstack-sans-serif);
+				--event-font-size: 18px;
+				--1px: calc(var(--event-font-size) * 0.0625);
+				--event-line-height: calc(var(--event-font-size) * 1.5);
+				--demo-bg: #00000000;
+				--demo-bg-alt: #00000000;
+			}
+		</style>
+		<style type="text/css" data-styled-jsx="">
+			/* 极简描边 × 岁己SUI by LAPLACE Chat */
+			/* 致敬 yt-live-chat/blivechat */
+
+			/* 引入 Google Fonts 字体，理论上国内可以直接访问 */
+			@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+
+			/* 全局背景透明，可保证 OBS 载入弹幕机的过程中背景全程透明 */
+			body { background-color: rgba(0, 0, 0, 0); }
+
+			/* 全局事件变量 */
+			.event {
+				/* 应用全局自定义字体 */
+				/* --fontstack-sans-serif 为 LAPLACE Chat 内置变量，可调用非衬线字体 */
+				--event-font-family: 'Changa One', var(--fontstack-sans-serif);
+
+				/* 修改此变量可以改变描边颜色，请据直播间配色进行微调 */
+				--shadow-color: #000000;
+				--text-shadow: -2px -2px var(--shadow-color), -2px -1px var(--shadow-color), -2px 0px var(--shadow-color), -2px 1px var(--shadow-color), -2px 2px var(--shadow-color), -1px -2px var(--shadow-color), -1px -1px var(--shadow-color), -1px 0px var(--shadow-color), -1px 1px var(--shadow-color), -1px 2px var(--shadow-color), 0px -2px var(--shadow-color), 0px -1px var(--shadow-color), 0px 0px var(--shadow-color), 0px 1px var(--shadow-color), 0px 2px var(--shadow-color), 1px -2px var(--shadow-color), 1px -1px var(--shadow-color), 1px 0px var(--shadow-color), 1px 1px var(--shadow-color), 1px 2px var(--shadow-color), 2px -2px var(--shadow-color), 2px -1px var(--shadow-color), 2px 0px var(--shadow-color), 2px 1px var(--shadow-color), 2px 2px var(--shadow-color);
+
+				/* 弹幕文本颜色 */
+				--event-message-text: #fff;
+
+				/* 普通弹幕、总督、提督、舰长用户名重新设置 */
+				--event-username-text-0: #fff;
+				--event-username-text-1: rgb(254, 126, 117);
+				--event-username-text-2: rgb(232, 144, 251);
+				--event-username-text-3: rgb(148, 245, 102);
+
+				/* 强制醒目留言上方为白色文字 */
+				--event-superchat-top-text: #fff;
+			}
+
+			/* 全局文字描边 */
+			.event .username,
+			.event .message,
+			.event .price {
+				text-shadow: var(--text-shadow);
+			}
+
+			/* 高亮主播描边 */
+			.event-type--message.user-type--streamer {
+				--shadow-color: #fde33afe;
+			}
+
+			/* 高亮主播文字颜色 */
+			.event-type--message.user-type--streamer .username,
+			.event-type--message.user-type--streamer .message {
+				font-weight: bold;
+				color: rgb(0, 0, 0);
+			}
+		</style>
+          	<script src="scripts/sockjs.min.js"></script>
+          	<script src="scripts/stomp.min.js"></script>
+		<script src="scripts/jquery-3.6.0.js"></script>
+			<script src="scripts/jquery.form.min.js"></script>
+		<script src="scripts/58-8fadb7a69586dda3.js"></script>
+		<script src="scripts/972-11fa38a0e5db19e6.js"></script>
+		<script src="scripts/_buildManifest.js"></script>
+		<script src="scripts/_ssgManifest.js"></script>
+		<script src="scripts/bc693712-412044a4d0f815ec.js"></script>
+		<script src="scripts/framework-a336eba791abf541.js"></script>
+		<script src="scripts/main-ef608ef006563813.js"></script>
+		<script src="scripts/script1.js"></script>
+		<script src="scripts/%5Broom_id%5D-71e0f9e44e56d272.js"></script>
+		<style type="text/css" data-styled-jsx="">
+			body {
+				background-color: transparent;
+				overflow: hidden;
+			}
+		</style>
+          <script>
+                var stompClient = null;
+
+                function connect() {
+                      var socket = new SockJS('/ws');
+                      stompClient = Stomp.over(socket);
+                      stompClient.connect({}, function(frame) {
+                            stompClient.subscribe('/topic/messages', function(message) {
+                                  showMessage(message.body);
+                            });
+                      });
+                }
+
+                function showMessage(message) {
+                      if(message === "Reload"){
+                      	window.location = window.location;
+					  }else if(message.startsWith("<ADD>")){
+						$("#chat-content").append(message.substr(5));
+					  }else if(message.startsWith("<REMOVE>")){
+                      	var split = message.substr(8).split("<R_S>");
+                      	for(var i = 0;i < split.length;i++){
+							$("div[data-timestamp='" + split[i] + "']").remove();
+						}
+					  }
+					const targetPosition = document.body.scrollHeight;
+
+					// Smoothly scroll to the target position
+					window.scrollTo({
+						top: targetPosition,
+						behavior: "smooth"
+					});
+                }
+
+                window.onload = function() {
+                      connect();
+                };
+          </script>
+	</head>
+	<body>
+		<div id="__next">
+			<main>
+				<div class="jsx-f4194df4d9b7b81 EventListObs_eventListWrap__Gak7x event-list-wrap scheme-dark">
+					<div class="mantine-ScrollArea-root EventListObs_eventList__SwLvb event-list mantine-1deqy7c" dir="ltr" style="position: relative; --radix-scroll-area-corner-width: 0px; --radix-scroll-area-corner-height: 0px;">
+						<style>
+							[data-radix-scroll-area-viewport] {
+								scrollbar-width: none;
+								-ms-overflow-style: none;
+								-webkit-overflow-scrolling: touch;
+							}
+							[data-radix-scroll-area-viewport]::-webkit-scrollbar {
+								display: none
+							}
+						</style>
+						<div data-radix-scroll-area-viewport="" class="mantine-b6zkvl mantine-ScrollArea-viewport" id="scroll-div">
+							<div style="min-width: 100%; display: table;" id="chat-content">
+
+							</div>
+						</div><div data-orientation="horizontal" class="mantine-izvthu mantine-ScrollArea-scrollbar" style="position: absolute; bottom: 0px; left: 0px; right: var(--radix-scroll-area-corner-width); --radix-scroll-area-thumb-width: 18px;"></div>
+						<div data-orientation="vertical" class="mantine-izvthu mantine-ScrollArea-scrollbar" style="position: absolute; top: 0px; right: 0px; bottom: var(--radix-scroll-area-corner-height); --radix-scroll-area-thumb-height: 18px;">
+							<div data-state="visible" class="___ref-thumb mantine-a35pd7 mantine-ScrollArea-thumb" style="width: var(--radix-scroll-area-thumb-width); height: var(--radix-scroll-area-thumb-height); transform: translate3d(0px, -21.9979px, 0px);"></div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+		<script id="__NEXT_DATA__" type="application/json">
+			{"props":{"pageProps":{}},"page":"/obs/[room_id]","query":{},"buildId":"PI95YK3Zc_FO0nq9EJa-3","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}
+		</script>
+		<div>
+			<div dir="ltr">
+				<div class="mantine-14zcsvh">
+					<div></div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div dir="ltr">
+				<div>
+					<div class="mantine-Modal-root mantine-yxmaw9"></div>
+				</div>
+			</div>
+		</div><script src="https://get.openbayes.net/app.js" async="true" defer="true" data-website-id="70bbffd8-7617-4bd8-b09c-4e80b1cc5c45" data-cache="true" data-nscript="afterInteractive"></script>
+	</body>
+</html>
